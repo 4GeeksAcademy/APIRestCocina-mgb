@@ -3,7 +3,7 @@ from flask_admin import Admin
 from models import db, User, Recetas, Ingredientes
 from flask_admin.contrib.sqla import ModelView
 
-
+#Obviar esta parte del codigo, esta modificada para la explicación
 class RecetaAdminView(ModelView):
     column_list = ("id", "name", "ingredientes")
     form_columns = ("name", "ingredientes")

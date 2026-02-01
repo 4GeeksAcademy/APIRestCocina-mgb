@@ -57,7 +57,7 @@ class Recetas(db.Model):
         secondary=recetas_fav,
         back_populates="favorito"
     )
-
+    #Obviar esta parte del codigo, esta modificada para la explicación
     def __repr__(self):
         return f"{self.name}"
 
@@ -78,6 +78,7 @@ class Ingredientes(db.Model):
         back_populates="ingredientes"
     )
 
+    #Obviar esta parte del codigo, esta modificada para la explicación
     def __repr__(self):
         return f"{self.name}"
 
